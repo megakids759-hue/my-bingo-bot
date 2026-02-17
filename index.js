@@ -1,7 +1,7 @@
 const { Telegraf, Markup } = require('telegraf');
 
 // የእርስዎ Bot Token
-const bot = new Telegraf('8519763447:AAGSYAcMY4z8NKCXu7MJjFW-3jB1_LrwCbY');
+const bot = new Telegraf('8519763447:AAGsYAcMY4z8NKCXu7MJjFW-3jB1_LrwCbY');
 
 bot.start((ctx) => {
   const name = ctx.from.first_name;
